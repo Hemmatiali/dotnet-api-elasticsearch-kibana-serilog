@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  project.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ElasticConfiguration__Uri=http://elasticsearch:9200
