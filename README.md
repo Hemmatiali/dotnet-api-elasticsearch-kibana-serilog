@@ -5,7 +5,7 @@ Welcome to the .NET API with Elasticsearch, Kibana, and Serilog Integration proj
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Debug application](#Debugging)
+- [Debug application](#Debugging-the-Application)
 - [Examples](#examples)
 - [Documentation and Comments](#documentation-and-comments)
 - [License](#license)
