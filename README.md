@@ -5,7 +5,7 @@ Welcome to the .NET API with Elasticsearch, Kibana, and Serilog Integration proj
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Debug application](#debugapp)
+- [Debug application](#Debugging)
 - [Examples](#examples)
 - [Documentation and Comments](#documentation-and-comments)
 - [License](#license)
@@ -43,7 +43,7 @@ cd dotnet-api-elasticsearch-kibana-serilog
 docker-compose up --build
 ```
 
-## Debuggin the Application
+## Debugging the Application
 1. Stopping Docker Containers:
 ```bash
 docker-compose down
@@ -59,7 +59,8 @@ docker-compose down
 **API Endpoint**
 Retrieve a product by ID:
 ```bash
-GET http://localhost:5297/api/product/1
+Swagger http://localhost:5297/swagger
+GET http://localhost:5297/api/product/-1
 ```
 
 **Log Visualization in Kibana**
@@ -72,6 +73,12 @@ http://localhost:5601
 4. Use the following search query to filter error logs:
 ```bash
 level: "Error"
+```
+
+**ElasticSearch**
+Open Elasticsearch at:
+```bash
+http://localhost:9200
 ```
 
 ## Documentation and Comments
