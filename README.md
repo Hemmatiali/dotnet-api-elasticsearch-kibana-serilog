@@ -1,4 +1,4 @@
-# C# .NET 8 API with Elasticsearch, Kibana, and Serilog Integration
+# C#.NET 8 API with Elasticsearch, Kibana, and Serilog Integration
 
 Welcome to the .NET API with Elasticsearch, Kibana, and Serilog Integration project! This repository demonstrates how to build a .NET API that integrates with Elasticsearch for logging, visualizes logs in Kibana, and uses Serilog for structured logging. The project follows best practices and is built with .NET 8.
 
